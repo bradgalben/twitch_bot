@@ -8,7 +8,7 @@ class Bot(commands.Bot):
         # prefix can be a callable, which returns a list of strings or a string...
         # initial_channels can also be a callable which returns a list of strings...
         super().__init__(token= "oauth:__XXXXX___", prefix='?', initial_channels=["#bradgalben", "#cobra12r", "#memmo_twitch"])
-        print("sono pronto")
+        print("bot is ready")
 
     async def event_ready(self):
         # Notify us when everything is ready!
